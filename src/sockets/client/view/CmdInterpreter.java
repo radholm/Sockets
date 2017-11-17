@@ -7,7 +7,7 @@ package sockets.client.view;
 
 import java.util.Scanner;
 import sockets.client.controller.Controller;
-import sockets.client.net.OutputHandler;
+import sockets.client.net.ServerResponse;
 
 /**
  *
@@ -63,7 +63,7 @@ public class CmdInterpreter implements Runnable {
                         break;
                     case HELP:
                         outMgr.println("\nAvailable Commands:\n" 
-                                        + QUIT + "\n" + CONNECT + "\n" 
+                                        + QUIT + "\n" + CONNECT + " <ip adress> <port>" + "\n" 
                                         + NEWWORD + "\n" + HELP + "\n");
                     default:
                         contr.sendMsg(command);
@@ -79,7 +79,7 @@ public class CmdInterpreter implements Runnable {
         return console.nextLine();
     }
 
-    private class ConsoleOutput implements OutputHandler {
+    private class ConsoleOutput implements ServerResponse {
         @Override
         public void handleMsg(String msg) {
             outMgr.println((String) msg);

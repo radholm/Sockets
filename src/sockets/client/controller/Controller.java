@@ -7,17 +7,17 @@ package sockets.client.controller;
 
 import java.io.IOException;
 import java.util.concurrent.CompletableFuture;
-import sockets.client.net.ServerConnection;
-import sockets.client.net.OutputHandler;
+import sockets.client.net.ServerConnect;
+import sockets.client.net.ServerResponse;
         
 /**
  *
  * @author Fredrik
  */
 public class Controller {
-    private final ServerConnection serverConnection = new ServerConnection();
+    private final ServerConnect serverConnection = new ServerConnect();
     
-    public void connect(String host, int port, OutputHandler outputHandler) {
+    public void connect(String host, int port, ServerResponse outputHandler) {
         CompletableFuture.runAsync(() -> {
             try {
                 serverConnection.connect(host, port, outputHandler);
