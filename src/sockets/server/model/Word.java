@@ -21,6 +21,12 @@ public class Word {
     private final List<String> words = new ArrayList<>();
     private Random rand = new Random();
     
+    /**
+     *
+     * @return returns a list of all words
+     * @throws FileNotFoundException
+     * @throws IOException
+     */
     public List<String> createWords() throws FileNotFoundException, IOException {
         BufferedReader reader = new BufferedReader(new FileReader("rsrcs/words.txt"));        
         String line = reader.readLine();

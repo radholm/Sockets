@@ -16,6 +16,12 @@ public class Gameplay {
     private String replacePattern;
     private String maskedWord;
     
+    /**
+     *
+     * @param guess is tested through some logical tests
+     * @param secretWord is the sought after word, compared with guess
+     * @return returns a string identifier
+     */
     public String getGuessResult(String guess, String secretWord) {
         if(guess.length() == 1) {
             if(secretWord.indexOf(guess)!=-1) {
@@ -36,6 +42,12 @@ public class Gameplay {
         }
     }
 
+    /**
+     *
+     * @param correctChars contains the correct guesses
+     * @param secretWord is the sought after word
+     * @return returns correct mask of word
+     */
     public String getWordMask(Set<String> correctChars, String secretWord) {
         replacePattern = "(?i)[^";
         for (String correctChar : correctChars) {
