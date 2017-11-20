@@ -3,16 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Fredrik/Documents/NetBeansProjects/SocketsJ/src/sockets/client/net/OutputHandler.java</file>
-            <file>file:/C:/Users/Fredrik/Documents/NetBeansProjects/SocketsJ/src/sockets/client/view/ThreadSafeOutput.java</file>
-            <file>file:/C:/Users/Fredrik/Documents/NetBeansProjects/SocketsJ/src/sockets/server/controller/Controller.java</file>
-            <file>file:/C:/Users/Fredrik/Documents/NetBeansProjects/SocketsJ/src/sockets/client/net/ServerConnection.java</file>
-            <file>file:/C:/Users/Fredrik/Documents/NetBeansProjects/SocketsJ/src/sockets/server/model/Word.java</file>
-            <file>file:/C:/Users/Fredrik/Documents/NetBeansProjects/SocketsJ/src/sockets/server/net/GameServer.java</file>
-            <file>file:/C:/Users/Fredrik/Documents/NetBeansProjects/SocketsJ/src/sockets/client/view/NonBlockingInterpreter.java</file>
-            <file>file:/C:/Users/Fredrik/Documents/NetBeansProjects/SocketsJ/src/sockets/server/model/Gameplay.java</file>
-            <file>file:/C:/Users/Fredrik/Documents/NetBeansProjects/SocketsJ/src/sockets/client/controller/Controller.java</file>
-            <file>file:/C:/Users/Fredrik/Documents/NetBeansProjects/SocketsJ/src/sockets/server/net/ClientHandler.java</file>
+            <file>file:/C:/Users/Fredrik/Documents/NetBeansProjects/Sockets/src/sockets/server/model/Word.java</file>
+            <file>file:/C:/Users/Fredrik/Documents/NetBeansProjects/Sockets/src/sockets/server/net/ClientHandler.java</file>
+            <file>file:/C:/Users/Fredrik/Documents/NetBeansProjects/Sockets/src/sockets/client/view/CmdInterpreter.java</file>
+            <file>file:/C:/Users/Fredrik/Documents/NetBeansProjects/Sockets/src/sockets/client/startup/Main.java</file>
+            <file>file:/C:/Users/Fredrik/Documents/NetBeansProjects/Sockets/src/sockets/server/controller/Controller.java</file>
+            <file>file:/C:/Users/Fredrik/Documents/NetBeansProjects/Sockets/src/sockets/server/model/Gameplay.java</file>
+            <file>file:/C:/Users/Fredrik/Documents/NetBeansProjects/Sockets/src/sockets/client/view/ThreadSafeOutput.java</file>
+            <file>file:/C:/Users/Fredrik/Documents/NetBeansProjects/Sockets/src/sockets/server/net/GameServer.java</file>
         </group>
     </open-files>
 </project-private>

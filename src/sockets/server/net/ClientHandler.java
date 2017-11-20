@@ -65,6 +65,10 @@ class ClientHandler implements Runnable {
         if(msg.equals(".newword")) {
             sendMsg("\nYou chose a new word\n");
             newRound();
+        } else if(msg.equals(".help")) {
+            //get help
+        } else if(msg.matches(".*([ \\t]).*")) {
+            sendMsg("You can't guess with a whitespace\n");
         } else {
             guessHandler(msg);
         }
