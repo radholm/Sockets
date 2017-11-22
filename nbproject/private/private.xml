@@ -8,9 +8,12 @@
             <file>file:/C:/Users/Fredrik/Documents/NetBeansProjects/Sockets/src/sockets/client/view/CmdInterpreter.java</file>
             <file>file:/C:/Users/Fredrik/Documents/NetBeansProjects/Sockets/src/sockets/client/startup/Main.java</file>
             <file>file:/C:/Users/Fredrik/Documents/NetBeansProjects/Sockets/src/sockets/server/controller/Controller.java</file>
+            <file>file:/C:/Users/Fredrik/Documents/NetBeansProjects/Sockets/src/sockets/client/net/ServerResponse.java</file>
             <file>file:/C:/Users/Fredrik/Documents/NetBeansProjects/Sockets/src/sockets/server/model/Gameplay.java</file>
             <file>file:/C:/Users/Fredrik/Documents/NetBeansProjects/Sockets/src/sockets/client/view/ThreadSafeOutput.java</file>
+            <file>file:/C:/Users/Fredrik/Documents/NetBeansProjects/Sockets/src/sockets/client/net/ServerConnect.java</file>
             <file>file:/C:/Users/Fredrik/Documents/NetBeansProjects/Sockets/src/sockets/server/net/GameServer.java</file>
+            <file>file:/C:/Users/Fredrik/Documents/NetBeansProjects/Sockets/src/sockets/client/controller/Controller.java</file>
         </group>
     </open-files>
 </project-private>
